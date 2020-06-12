@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className={`box ${dayLight ? "dayLight" : ""}`}>
-      <h1>Good {dayLight ? "Morning" : "Night"}</h1>
+      <h1>Good {dayLight ? "Morning Sir" : "Night Sir"}</h1>
       <Message counter={count} />
       <hr />
       <button onClick={() => setCount(++count)}>Update Counter</button>
